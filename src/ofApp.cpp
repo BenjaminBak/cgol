@@ -26,7 +26,7 @@ int ofApp::modarith(int a, int b){
 //--------------------------------------------------------------
 void ofApp::update(){
 	if(ofApp::flowing && ofApp::uptime < ofGetElapsedTimef()){
-		uptime = ofGetElapsedTimef() + 0.5;
+		uptime = ofGetElapsedTimef() + STEPTIME;
 		bool newreal[sz][sz];
 		for(int i = 0; i < sz; i++){
 			for(int j = 0; j < sz; j++){
