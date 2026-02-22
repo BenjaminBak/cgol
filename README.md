@@ -3,7 +3,7 @@
 implementation of Conway's game of life in [OpenFrameworks](https://openframeworks.cc/)
 ## Usage
 - Add sourcefiles to a fresh Openframeworks app and build it.
-- Change SIZE macro to change board size.
+- Change SIZE macro in ofApp.h to change board size and STEPTIME for the update rate.
 - The board wraps around.
 - Press 'space' to halt/continue the progression of the game.
 - Press 'r' to draw random noise over the entire board.
