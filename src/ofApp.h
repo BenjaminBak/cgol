@@ -1,7 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
-
+#define SIZE 100
+#define STEPTIME 0.125
 class ofApp : public ofBaseApp{
 
 	public:
@@ -20,10 +21,10 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		bool reality[100][100];
+		bool reality[SIZE][SIZE];
 		int modarith(int a, int b);
 		float ulen;
-		int sz = 100;
+		int sz = SIZE;
 		float uptime = 0;
 		bool flowing = false;
 		
