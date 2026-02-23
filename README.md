@@ -11,3 +11,5 @@ implementation of Conway's game of life in [OpenFrameworks](https://openframewor
 
 - Left click/drag with the cursor on the bord to make cells alive,
 right click/drag to make them dead.
+
+Here the [Documentation](https://benjaminbak.github.io/Portfolio/projects/cgol1/index.html).
